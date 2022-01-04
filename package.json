@@ -1,0 +1,31 @@
+{
+  "name": "svelte-jester-preprocess-issue",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest src --config jest.config.json",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "jest": "^27.0.0",
+    "babel-jest": "^27.0.0",
+    "svelte-jester": "^2.0.1",
+    "@testing-library/svelte": "^3.0.0",
+    "@testing-library/jest-dom": "^5.14.0",
+    "@types/testing-library__jest-dom": "^5.14.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "cookie": "^0.4.1"
+  }
+}
